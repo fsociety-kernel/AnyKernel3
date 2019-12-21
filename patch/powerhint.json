@@ -134,6 +134,7 @@
         "30",
         "10"
       ],
+      "ResetOnInit": true
     },
     {
       "Name": "CDSchedtuneBoost",
@@ -363,6 +364,12 @@
       "Node": "GPUMaxFreq",
       "Duration": 0,
       "Value": "427000000"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "TASchedtuneBoost",
+      "Duration": 0,
+      "Value": "30"
     },
     {
       "PowerHint": "INTERACTION",
